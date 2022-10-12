@@ -25,7 +25,7 @@ export class CreateUserService {
             id: uuid().toUpperCase(),
             name: name.toUpperCase(),
             email: email.toUpperCase(),
-            password: hashedPassword.toUpperCase(),
+            password: hashedPassword,
         });
 
         await usersRepostory.save(user);

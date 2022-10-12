@@ -1,4 +1,3 @@
-//NÃO USADO
 import { AppDataSource } from "../database/data-source";
 import { User } from "../models/User";
 
